@@ -1,0 +1,15 @@
+.dark {
+  background-color: rgb(84, 84, 84);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 120vh;
+  min-width: 120vh;
+}
+.day {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 120vh;
+  min-width: 120vh;
+}
