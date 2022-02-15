@@ -10,12 +10,11 @@ import {
 import './Counter.css';
 
 const Counter = () => {
-  // The function below is called a selector and allows us to select a value
+  // The function below is called a selector and allows us to select the state
   // the state.
   const count = useSelector((state) => state.counter.count);
   const isDarkMode = useSelector((state) => state.counter.isDarkMode);
   const dispatch = useDispatch();
-
   return (
     <div className={isDarkMode ? 'dark' : 'day'}>
       <button
